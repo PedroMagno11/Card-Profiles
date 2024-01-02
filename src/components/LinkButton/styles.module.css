@@ -1,0 +1,21 @@
+.wrapper{
+    border: none;
+    padding: .3rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background: rgb(16,161,157);
+    background: linear-gradient(45deg, rgba(16,161,157,1) 0%, rgba(84,3,117,1) 100%);
+    color: #fefefe;
+    font-weight: 700;
+    box-shadow: 0 0px 4px #fefefe60;
+    transition: 0.2s;
+    position: relative;
+    top: -0.8rem;
+    bottom: 0;
+    margin-top: 20px;
+    width: 10rem;
+}
+.wrapper:hover{
+    top: -1.05rem;
+    box-shadow: 0 4px 10px #fefefe65;
+}

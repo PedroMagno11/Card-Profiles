@@ -1,0 +1,29 @@
+.card{
+    width: 260px;
+    margin-top: 20px;
+}
+
+.upperContainer{
+    border-radius: 10px 10px 0 0;
+    height: 110px;
+    width: 100%;
+    background: rgb(84,3,117);
+    background: linear-gradient(45deg, rgba(16,161,157,1) 0%,  rgba(84,3,117,1) 100%);
+}
+
+.lowerContainer{
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    padding: .5rem;
+    flex-direction: column;
+    height: calc(100% - 110px);
+    background-color: #231F20;
+    color: #FEFEFE;
+    width: 100%;
+    padding-top: 60px;
+    text-align: center;
+    font-family: "Titillium web", sans-serif;
+}
+
+
+
